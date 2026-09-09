@@ -414,66 +414,68 @@ footer {
         width: 70%;
     }
 
-
+/* EDUCATION - MOBILE */
 
 .secondSection {
     width: 90%;
-    max-width: 1200px;
     margin: auto;
-    padding: 60px 0 120px;
+    padding: 50px 0 80px;
 }
 
 .secondSection h1 {
     font-size: 2rem;
-    margin-top: 10px;
+    margin-bottom: 40px;
 }
 
 .secondSection .box {
-    background: white;
+    background: none;
     width: 100%;
-    height: 2px;
-    margin: 100px 0 230px;
+    height: auto;
+    margin: 0;
+    padding-left: 30px;
 
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    column-gap: 70px;
+    display: block;
+
+    border-left: 2px solid white;
 }
 
 .secondSection .vertical {
-    height: 100px;
-    width: 2px;
-    background-color: beige;
+    height: auto;
+    width: 100%;
+    background: none;
     position: relative;
+    padding-bottom: 40px;
+}
+
+.image-top {
+    width: 23px;
+    position: absolute;
+    top: 0;
+    left: -42px;
 }
 
 .vertical-title {
-    position: absolute;
-    top: 75px;
-    left: 0;
-    width: 210px;
-    font-size: 20px;
+    position: static;
+    width: 100%;
+    font-size: 18px;
     font-weight: bold;
+    margin-bottom: 8px;
 }
 
 .vertical-desc {
-    position: absolute;
-    top: 115px;
-    left: 0;
-    color: grey;
-    width: 210px;
+    position: static;
+    width: 100%;
     font-size: 14px;
     line-height: 1.6;
+    color: grey;
 }
+
 
 
     .skills {
         grid-template-columns: 1fr;
     }
 
-    .footer {
-        flex-direction: column;
-        text-align: center;
-    }
 }
 
 
