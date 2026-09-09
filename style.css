@@ -509,3 +509,49 @@ footer {
 .about-content p:last-child {
     margin-bottom: 0;
 }
+
+
+
+@media (max-width: 768px) {
+
+    .secondSection .box {
+        display: block !important;
+        width: 100% !important;
+        height: auto !important;
+        margin: 0 !important;
+        padding-left: 30px !important;
+        background: none !important;
+        border-left: 2px solid white;
+    }
+
+    .secondSection .vertical {
+        display: block !important;
+        width: 100% !important;
+        height: auto !important;
+        background: none !important;
+        position: relative !important;
+        padding-bottom: 40px !important;
+    }
+
+    .image-top {
+        width: 23px !important;
+        position: absolute !important;
+        top: 0 !important;
+        left: -42px !important;
+    }
+
+    .vertical-title {
+        position: static !important;
+        width: 100% !important;
+        font-size: 18px !important;
+        margin-bottom: 8px !important;
+    }
+
+    .vertical-desc {
+        position: static !important;
+        width: 100% !important;
+        font-size: 14px !important;
+        line-height: 1.6 !important;
+        color: grey !important;
+    }
+}
